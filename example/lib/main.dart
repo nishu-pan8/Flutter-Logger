@@ -25,22 +25,6 @@ class _MyAppState extends State<MyApp> {
     // initPlatformState();
   }
 
-  // Future<void> initPlatformState() async {
-  //   String platformVersion;
-  //
-  //   try {
-  //     platformVersion = await _myLoggerPlugin.getPlatformVersion() ??
-  //         'Unknown platform version';
-  //   } on PlatformException {
-  //     platformVersion = 'Failed to get platform version.';
-  //   }
-  //   if (mounted) {
-  //     setState(() {
-  //       _platformVersion = platformVersion;
-  //     });
-  //   }
-  // }
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
